@@ -77,7 +77,7 @@ function writeStream(response, savePath, callback) {
 	});
 }
 
-function errorHandler(error) {
+function errorHandler(error, callback) {
 	if (callback) { 
 		callback(error); 
 	}
